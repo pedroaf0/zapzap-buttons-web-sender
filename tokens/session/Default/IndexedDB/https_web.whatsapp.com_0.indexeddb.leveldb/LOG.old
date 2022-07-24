@@ -1,0 +1,39 @@
+2022/07/24-18:35:29.759 1b98 Reusing MANIFEST D:\documents\GitHub\whatconect\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/24-18:35:29.760 1b98 Recovering log #859
+2022/07/24-18:35:29.775 1b98 Reusing old log D:\documents\GitHub\whatconect\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000859.log 
+2022/07/24-18:35:46.080 2f8c Level-0 table #873: started
+2022/07/24-18:35:46.190 2f8c Level-0 table #873: 1168590 bytes OK
+2022/07/24-18:35:46.200 2f8c Delete type=0 #859
+2022/07/24-18:35:46.497 2f8c Compacting 1@0 + 1@1 files
+2022/07/24-18:35:46.582 2f8c Generated table #874@0: 18342 keys, 686545 bytes
+2022/07/24-18:35:46.692 2f8c Generated table #875@0: 3794 keys, 77588 bytes
+2022/07/24-18:35:46.694 2f8c Compacted 1@0 + 1@1 files => 764133 bytes
+2022/07/24-18:35:46.702 2f8c compacted to: files[ 0 2 16 0 0 0 0 ]
+2022/07/24-18:35:46.703 2f8c Delete type=2 #847
+2022/07/24-18:35:46.703 2f8c Delete type=2 #873
+2022/07/24-18:35:54.233 27d0 Compacting 1@1 + 11@2 files
+2022/07/24-18:35:54.370 27d0 Generated table #876@1: 35144 keys, 2271085 bytes
+2022/07/24-18:35:54.493 27d0 Generated table #877@1: 32136 keys, 2283583 bytes
+2022/07/24-18:35:54.640 27d0 Generated table #878@1: 29747 keys, 2265096 bytes
+2022/07/24-18:35:54.797 27d0 Generated table #879@1: 87373 keys, 2267744 bytes
+2022/07/24-18:35:54.936 27d0 Generated table #880@1: 27351 keys, 2228983 bytes
+2022/07/24-18:35:55.080 27d0 Generated table #881@1: 2715 keys, 2146954 bytes
+2022/07/24-18:35:55.641 27d0 Generated table #882@1: 2709 keys, 2149478 bytes
+2022/07/24-18:35:55.924 27d0 Generated table #883@1: 17253 keys, 2194042 bytes
+2022/07/24-18:35:56.491 27d0 Generated table #884@1: 23244 keys, 2232695 bytes
+2022/07/24-18:35:56.765 27d0 Generated table #885@1: 24994 keys, 2150562 bytes
+2022/07/24-18:35:56.954 27d0 Generated table #886@1: 21880 keys, 477054 bytes
+2022/07/24-18:35:56.954 27d0 Compacted 1@1 + 11@2 files => 22667276 bytes
+2022/07/24-18:35:57.108 27d0 compacted to: files[ 0 1 16 0 0 0 0 ]
+2022/07/24-18:35:57.108 27d0 Delete type=2 #857
+2022/07/24-18:35:57.108 27d0 Delete type=2 #861
+2022/07/24-18:35:57.108 27d0 Delete type=2 #862
+2022/07/24-18:35:57.109 27d0 Delete type=2 #863
+2022/07/24-18:35:57.109 27d0 Delete type=2 #864
+2022/07/24-18:35:57.109 27d0 Delete type=2 #865
+2022/07/24-18:35:57.109 27d0 Delete type=2 #866
+2022/07/24-18:35:57.109 27d0 Delete type=2 #867
+2022/07/24-18:35:57.109 27d0 Delete type=2 #868
+2022/07/24-18:35:57.109 27d0 Delete type=2 #869
+2022/07/24-18:35:57.109 27d0 Delete type=2 #870
+2022/07/24-18:35:57.109 27d0 Delete type=2 #874

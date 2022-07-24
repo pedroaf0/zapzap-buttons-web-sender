@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sistema de cadastro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    
+<nav class="navbar navbar-light bg-light justify-content-between up">
+    <a class="navbar-brand" href="#">
+      <img src="logo_cti.png" height="30" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="btn btn-outline-success my-5 my-sm-5 navup"><i class='fas fa-home' style='font-size:20px'></i> home </button>
+    <!-- <button class="btn btn-outline-success my-5 my-sm-5 navup"><i class='fab fa-telegram-plane' style='font-size:20px'></i> Contato </button>
+    <button class="btn btn-outline-success my-5 my-sm-5 navup"><i class='fas fa-question-circle' style='font-size:20px'></i> Ajuda </button> -->
+    <button style="float: right;" class="btn btn-outline-success my-5 my-sm-5 navup"><i class="fas fa-sign-out-alt" style='font-size:20px'></i> Sair </button>
+</nav>
+
+<div class="container upp">
+  <h2>Sistema de cadastro</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#Documentação">Mesnsagem</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="Documentação" class="tab-pane fade in active">
+        <form>
+            <div class="form-group">
+                <label for="Sexo">Contato</label>
+                <select class="form-control" id="chatsSelect">
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="title"><Title></Title></label>
+                <input type="text" value="undefined" class="form-control" id="title" placeholder="undefined">
+              </div>
+              <div class="form-group">
+                <label for="body"><Title></Title></label>
+                <input type="text" value="undefined" class="form-control" id="body" placeholder="undefined">
+              </div>
+              <div class="form-group">
+                <label for="footer"><Title></Title></label>
+                <input type="text" value="undefined" class="form-control" id="footer" placeholder="undefined">
+              </div>
+              <div class="form-group">
+                <label for="footer"><Title></Title></label>
+                <textarea  spellcheck="false" value="undefined" class="form-control" id="buttons" placeholder="undefined"></textarea>
+                <p>[{"text":"a","id":"a"}]</p>
+              </div>
+          </form>
+    </div>
+   
+  <button onclick="send()" type="submit" class="btn btn-primary submit">Enviar</button>
+
+</div>
+<script>
+    async function a(){
+       var chats = await fetch('/getchats') 
+       chats = await chats.text();
+       chats = JSON.parse(chats);
+        console.log(chats)
+        for (let index = 0; index < chats.length; index++) {
+            const element = chats[index];
+            var x = document.getElementById("chatsSelect");
+            var option = document.createElement("option");
+                option.text = element.contact.formattedName;
+                option.value = element.contact.id._serialized;
+            x.add(option);
+            
+        }
+    }a()
+    async function send(){
+        var e = document.getElementById("chatsSelect");
+        const id = e.options[e.selectedIndex].value;
+        console.log(id)
+        var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        alert("enviado")
+    }
+  };
+  xhttp.open("post", "/send", true);
+  xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+
+  xhttp.send(JSON.stringify({'id':id, 'message':document.getElementById('body').value,'buttons':JSON.parse(document.getElementById('buttons').value)}));    }
+</script>
+</body>
+</html>

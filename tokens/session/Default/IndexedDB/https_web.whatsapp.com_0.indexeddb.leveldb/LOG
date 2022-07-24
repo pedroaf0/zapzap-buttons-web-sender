@@ -1,0 +1,29 @@
+2022/07/24-18:42:37.568 1d28 Reusing MANIFEST D:\documents\GitHub\whatconect\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/24-18:42:37.568 1d28 Recovering log #872
+2022/07/24-18:42:37.574 1d28 Reusing old log D:\documents\GitHub\whatconect\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000872.log 
+2022/07/24-18:42:51.286 2160 Level-0 table #889: started
+2022/07/24-18:42:51.346 2160 Level-0 table #889: 1119963 bytes OK
+2022/07/24-18:42:51.354 2160 Delete type=0 #872
+2022/07/24-18:42:51.646 548 Compacting 1@1 + 9@2 files
+2022/07/24-18:42:51.754 548 Generated table #890@1: 34978 keys, 2266098 bytes
+2022/07/24-18:42:51.854 548 Generated table #891@1: 32167 keys, 2285269 bytes
+2022/07/24-18:42:51.955 548 Generated table #892@1: 29528 keys, 2263535 bytes
+2022/07/24-18:42:52.066 548 Generated table #893@1: 83493 keys, 2272024 bytes
+2022/07/24-18:42:52.162 548 Generated table #894@1: 34246 keys, 2235416 bytes
+2022/07/24-18:42:52.240 548 Generated table #895@1: 2640 keys, 2146515 bytes
+2022/07/24-18:42:52.329 548 Generated table #896@1: 2745 keys, 2155604 bytes
+2022/07/24-18:42:52.412 548 Generated table #897@1: 15729 keys, 2187501 bytes
+2022/07/24-18:42:52.517 548 Generated table #898@1: 24596 keys, 2240759 bytes
+2022/07/24-18:42:52.531 548 Generated table #899@1: 368 keys, 127899 bytes
+2022/07/24-18:42:52.531 548 Compacted 1@1 + 9@2 files => 20180620 bytes
+2022/07/24-18:42:52.539 548 compacted to: files[ 0 1 17 0 0 0 0 ]
+2022/07/24-18:42:52.539 548 Delete type=2 #876
+2022/07/24-18:42:52.539 548 Delete type=2 #877
+2022/07/24-18:42:52.539 548 Delete type=2 #878
+2022/07/24-18:42:52.539 548 Delete type=2 #879
+2022/07/24-18:42:52.539 548 Delete type=2 #880
+2022/07/24-18:42:52.539 548 Delete type=2 #881
+2022/07/24-18:42:52.539 548 Delete type=2 #882
+2022/07/24-18:42:52.540 548 Delete type=2 #883
+2022/07/24-18:42:52.540 548 Delete type=2 #884
+2022/07/24-18:42:52.540 548 Delete type=2 #889
